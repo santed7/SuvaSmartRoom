@@ -74,13 +74,13 @@ void loop(){
   
   if (ms_val == HIGH) {
       if (ms_state == LOW) {
-          Particle.publish("Motion Sensor Value", "HIGH");
+          //Particle.publish("Motion Sensor Value", "HIGH");
           ms_state = HIGH;
       }
   }
   else {
       if (ms_state == HIGH) {
-          Particle.publish("Motion Sensor Value", "LOW");
+        //  Particle.publish("Motion Sensor Value", "LOW");
           ms_state = LOW;
       }
   }
@@ -130,9 +130,9 @@ void loop(){
   
   
   
-  if (Time.second() == 0) {
-       Particle.publish( "Counter", "{ \"People Counted\": \"" + String(count) + "\","+              //Publishes people counted, button presses, and IR sensor triggers to Thingspeak
-       "\"Button Presses\": \"" + String(button_presses) + "\"}", 60, PRIVATE);
-  }
+//   if (Time.second() == 0) {
+//        Particle.publish( "Counter", "{ \"People Counted\": \"" + String(count) + "\","+              //Publishes people counted, button presses, and IR sensor triggers to Thingspeak
+//        "\"Button Presses\": \"" + String(button_presses) + "\"}", 60, PRIVATE);
+//   }
   
 }
