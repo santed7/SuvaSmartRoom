@@ -3,7 +3,7 @@
 /******************************************************/
 
 #include "Particle.h"
-#line 1 "c:/Users/Vernon/Documents/IoT/SuvaSmartRoom/Midterm2/music/src/music.ino"
+#line 1 "c:/Users/vcox/Documents/IoT/SuvaSmartRoom/Midterm2/music/src/music.ino"
 /*
  * Project music
  * Description:
@@ -11,13 +11,13 @@
  * Date:
  */
 #include <iostream>
-#include <Windows.h>
+#include <windows.h>
 #include "MMSystem.h"
 
 int main();
 void setup();
 void loop();
-#line 11 "c:/Users/Vernon/Documents/IoT/SuvaSmartRoom/Midterm2/music/src/music.ino"
+#line 11 "c:/Users/vcox/Documents/IoT/SuvaSmartRoom/Midterm2/music/src/music.ino"
 using nbamespace stdp;
 int main()
 {

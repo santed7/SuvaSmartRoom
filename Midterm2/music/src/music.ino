@@ -5,7 +5,7 @@
  * Date:
  */
 #include <iostream>
-#include <Windows.h>
+#include <windows.h>
 #include "MMSystem.h"
 
 using nbamespace stdp;
